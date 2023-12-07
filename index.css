@@ -1,0 +1,103 @@
+*{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+
+
+body{
+    max-width: 1100px;
+    background-color: #000;
+    /* border: 1px solid wheat; */
+    margin: 0 auto;
+    /* padding-top: 10px; */
+}
+
+header{
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 1px solid palegreen; */
+}
+#icon{
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+#icon span{
+    color: #CA0156;
+}
+nav{
+    display: inline-block;
+    height: 100%;
+    /* border: solid; */
+    margin-top: 0;
+    
+}
+
+nav li{
+    display: inline;
+    padding: 10px 15px;
+    height: 100%;
+}
+
+nav li:hover{
+    background-color: #CA0156;
+}
+
+#searchbar{
+    height: 100%;
+    /* border: solid; */
+
+}
+#searchbar input{
+    height: 100%;
+    width: 200px;
+    background-color: #eef;
+    margin: 5px;
+}
+
+button{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 27px;
+    padding-top: 10px;
+    display: none;
+}
+
+.NewBody{
+    margin-top: 50px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.recents{
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+}
+
+.anime{
+    width: auto;
+    margin: 2px;
+    position: relative;
+}
+.anime img{
+    width: 100%;
+
+}
+.anime #title{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    width: 95%;
+}
